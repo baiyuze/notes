@@ -140,8 +140,8 @@ MyPromise.prototype.then = function(onFulfilled, onRejected) {
   let promise2;
 
   // 根据标准，如果then的参数不是function，则我们需要忽略它
-  onFulfilled = typeof onFulfilled === 'function' ? onFulfilled : function(f) {};
-  onRejected = typeof onRejected === 'function' ? onRejected : function(r) {};
+  onFulfilled = typeof onFulfilled === 'function' ? onFulfilled : function(f) { return f};
+  onRejected = typeof onRejected === 'function' ? onRejected : function(r) {throw r};
   //需要修改下，解决异步问题，即当Promise调用resolve之后再调用then执行onFulfilled(that.value)。
   //用两个数组保存下onFulfilledArray
   if(that.status === 'pending') {
@@ -230,13 +230,18 @@ module.exports = MyPromise;
 //   }, 1000)
 // }).then((data) => {
 //   console.log(data);
-//   return new Promise((res) => {
+//   return new MyPromise((res) => {
 //     setTimeout(() => {
 //       res(2);
 //     },1000)
 //   })
-
-
 // }).then((res) => {
 //   console.log(res);
 // })
+
+new MyPromise(resolve=>resolve(8))
+  .then()
+  .then()
+  .then(function foo(value) {
+    console.log(value)
+  })
