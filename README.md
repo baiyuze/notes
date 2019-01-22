@@ -37,6 +37,7 @@
 ### 前端相关
 
 * [Promise/A+规范](https://github.com/baiyuze/notes/tree/master/Promise)
+* [一次弄懂Event Loop（彻底解决此类面试问题）](https://github.com/baiyuze/notes/blob/master/%E4%B8%80%E6%AC%A1%E5%BC%84%E6%87%82Event%20Loop%EF%BC%88%E5%BD%BB%E5%BA%95%E8%A7%A3%E5%86%B3%E6%AD%A4%E7%B1%BB%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%EF%BC%89)
 
 ## 写在最后
 
