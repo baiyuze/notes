@@ -24,7 +24,7 @@
 
 ### NODE相关
 
-* [骚年，koa和webpack了解一下](https://github.com/baiyuze/notes/blob/master/骚年，koa和webpack了解一下.md.md)
+* [骚年，koa和webpack了解一下](https://github.com/baiyuze/notes/blob/master/骚年，koa和webpack了解一下.md)
 * [如何创建一个可靠稳定的Web服务器](https://github.com/baiyuze/notes/blob/master/如何创建一个可靠稳定的Web服务器.md)
 * [从源码上理解express中间件](https://github.com/baiyuze/notes/blob/master/从源码上理解express中间件.md)
 * [Koa上下文Context的数据劫持](https://github.com/baiyuze/notes/blob/master/Koa上下文Context的数据劫持.md)
