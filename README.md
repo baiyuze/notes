@@ -10,10 +10,6 @@
 自7月中旬开始，我往`github`正式提交了第一份前端开发模板[`egg-dva`](https://github.com/baiyuze),后面又陆续提交了[`mobile-app-tamplate`](https://github.com/baiyuze/mobile-app-tamplate)、[`pc-app-tamplate`](https://github.com/baiyuze/pc-app-tamplate)、[`egg-ssr-mobile-react`](https://github.com/baiyuze/egg-ssr-mobile-react)、[`easywebpack-template-pc`](https://github.com/baiyuze/easywebpack-template-pc)、[`pc-react-tamplate`](https://github.com/baiyuze/pc-react-tamplate)，后来提的模板越来越多，就有了整合这些模板的心思，把他们做成一个脚手架，直接在命令行里选择某种模板，拉下来就能开发。  
 后来由于一些事耽误了，也就搁置了。
 
-## 版本控制系统
-
-这个项目也是一拍脑袋就做的项目，从一开始的需求分析，后面的技术评估，再到前端页面的搭建，后端服务`Node`和`MongoDB`的使用，林林总总利用闲暇时间花了近三个月的时间，中间也遇到了一些困难，比如一开始使用的后端服务框架是`Egg`，但是最后部署的时候，总会提示`don't fork work`，项目没法继续下去，只能换框架，采用`Koa`来进行搭建，重新改造了后端架构，终于完成了第一版的[`version-control-system`](https://github.com/baiyuze/version-control-system)，后来发现，此类部署只能一次部署一个系统，缺陷太大，需要重新整改，需要重新去找一个合理的技术方案。
-
 ## 博客
 
 写第一篇博客是在掘金，分享了第一篇文章[骚年，koa和webpack了解一下.md](https://github.com/baiyuze/notes/blob/master/骚年，koa和webpack了解一下.md)，看着一个个点赞，自己心中还是小有成就的，毕竟每写一篇文章，就得花费自己好几天的时间去寻找答案，归纳总结，才能汇总成一篇文章。可能一篇文章只是寥寥的近3000字，也是付出了极大的心血。  
