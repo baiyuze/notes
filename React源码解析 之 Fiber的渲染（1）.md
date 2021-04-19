@@ -1,6 +1,4 @@
----
-theme: channing-cyan
----
+
 
 #### React源码系列
 - [React源码解析之 Fiber结构的创建](https://juejin.cn/post/6951585684679294989)
